@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate</title>
+</head>
+<body>
+    <h1>Pastelería Chocolate</h1>
+    <img width="200" src="/assets/images/logo.png" alt="">
+    <a href="index.html"><menu>Inicio</menu></a>
+    <a href="menu.html"><menu>Menú</menu></a>
+    <a href="pedido.html"><menu>Pedidos</menu></a>
+
+    <section class="block-buttom-products" >
+        <div class="title-section text-center">
+            <h2 class="title" style="padding-top: 24px;">Nosotros</h2>
+        </div>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut ducimus similique culpa beatae excepturi velit corporis sunt ea voluptas harum nisi, rerum asperiores consectetur eaque explicabo consequatur dicta expedita?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident vero facilis temporibus. Doloribus ullam praesentium deserunt commodi, dolores asperiores. Eius culpa dolorem aut provident officiis perspiciatis debitis vero quam blanditiis!
+            </p>
+        </div>
+    </section>
+
+    <section class="block-buttom-products" id="contacto">
+        <div class="container">
+            <div class="title-section text-center">
+                <h2 class="title" style="padding-top: 24px;">Contacto</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="section-contact-info">
+                        <p>¡Queremos saber de ti! Escríbenos y nos pondremos en contacto contigo.</p>
+                        <div class="block-info-contact">
+                            <div class="infomation">
+                                <!--<span>
+                                    <span class="icon"><i class="fa fa-anchor"></i></span>
+                                    Año de Juárez 289, Col. Granjas San Antonio, 09080, CDMX
+                                </span>-->
+                                <span>
+                                    <span class="icon"><i class="fa fa-phone"></i></span>
+                                    5555 4444 ext. 9999
+                                </span>
+                                <span>
+                                    <span class="icon"><i class="fa fa-life-ring"></i></span>
+                                    contacto2@Innovaccion.mx
+                                </span>
+                                <span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="section-contact-info">
+                        <form id="contact-us-form">
+                            <div class="form-contact">
+                                <div id="message-box-conact"></div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <p>
+                                            <label>Nombre <span class="required">*</span></label>
+                                            <input type="text" id="ContactName" name="ContactName" data-msg="Requerido">
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p>
+                                            <label>Email <span class="required">*</span></label>
+                                            <input type="text" id="ContactEmail" name="ContactEmail" data-msg="Requerido" data-msg-email="Escriba un correo válido">
+                                        </p>
+                                    </div>
+                                </div>
+                                <p>
+                                    <label>Razón <span class="required">*</span></label>
+                                    <select id="ContactReasonId" name="ContactReasonId" style="color: #8a8a8a" data-msg="Requerido">
+                                        <option value="">Selecciona una razón</option>
+                                            <option value="1">
+                                                Pregunta
+                                            </option>
+                                            <option value="2">
+                                                Solicitud
+                                            </option>
+                                            <option value="3">
+                                                Sugerencia
+                                            </option>
+                                            <option value="4">
+                                                Queja
+                                            </option>
+                                            <option value="5">
+                                                Otro
+                                            </option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <label>Comentario <span class="required">*</span></label>
+                                    <textarea id="ContactComment" name="ContactComment" data-msg="Requerido" rows="5" style="resize: none;"></textarea>
+                                </p>
+                                <div class="contact-form-msg form-message">
+    
+                                </div>
+                                <button id="btn-send-contact" class="button">Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
